@@ -2,11 +2,15 @@
 
 A port of [FreeDOS](https://www.freedos.org/) to the NEC PC-88VA. The goal is a FreeDOS 1.4 based system that boots from a 2HD floppy on the PC-88VA, built reproducibly from public sources.
 
+## Latest: M20 release candidate 1
+
+**[M20 release candidate 1](https://github.com/FreeDOS-88VA/freedos/releases/tag/m20-rc.1)** (prerelease, emulator validation only; hardware NOT RUN) is built on the FreeDOS 1.4 release sources (kernel `ke2043`, FreeCOM `com086`). It provides three PC-88VA 2HD floppy images (English only): a bootable system disk, a utilities disk and an archiver/tools disk (UNZIP, ZIP, GZIP, DEBUG). Japanese support is planned for the next milestone.
+
 ## Start here
 
 - **[freedos](https://github.com/FreeDOS-88VA/freedos)**: build recipes, pinned sources, documentation, milestone reports and release disk images.
-- [M18 release](https://github.com/FreeDOS-88VA/freedos/releases/tag/m18) and the [M19 MS-DOS 4 COMMAND preview](https://github.com/FreeDOS-88VA/freedos/releases/tag/m19-msdos4-preview.1).
-- Current work: the `m20/freedos-1.4-base` branch (FreeDOS 1.4 kernel `ke2043` and FreeCOM `com086` as the baseline; system, utilities and archiver floppies). Real-hardware testing has not been run.
+- [M20 release notes](https://github.com/FreeDOS-88VA/freedos/blob/main/docs/releases/m20.md), including known issues and the rebuild procedure.
+- Earlier releases: [M19 MS-DOS 4 COMMAND preview](https://github.com/FreeDOS-88VA/freedos/releases/tag/m19-msdos4-preview.1) and [M18](https://github.com/FreeDOS-88VA/freedos/releases/tag/m18).
 
 ## Repositories
 
