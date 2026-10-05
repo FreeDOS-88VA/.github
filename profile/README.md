@@ -16,7 +16,7 @@ A port of [FreeDOS](https://www.freedos.org/) to the NEC PC-88VA. The goal is a 
 
 | Area | Repositories |
 |---|---|
-| Kernel and shell | [kernel](https://github.com/FreeDOS-88VA/kernel) (fork of FDOS/kernel; the older [fdkernel](https://github.com/FreeDOS-88VA/fdkernel) is a lpproj fork kept for M18-M19 history), [freecom_dbcs2](https://github.com/FreeDOS-88VA/freecom_dbcs2) |
+| Kernel and shell | [kernel](https://github.com/FreeDOS-88VA/kernel) (fork of FDOS/kernel; the older [fdkernel](https://github.com/FreeDOS-88VA/fdkernel) is a lpproj fork kept for M18-M19 history), [freecom](https://github.com/FreeDOS-88VA/freecom) (fork of FDOS/freecom; the older [freecom_dbcs2](https://github.com/FreeDOS-88VA/freecom_dbcs2) is a lpproj fork kept for M18-M19 history) |
 | Assembler | [JWasm](https://github.com/FreeDOS-88VA/JWasm) |
 | Utility forks (Open Watcom / PC-88VA changes) | [choice](https://github.com/FreeDOS-88VA/choice), [deltree](https://github.com/FreeDOS-88VA/deltree), [comp](https://github.com/FreeDOS-88VA/comp), [fc](https://github.com/FreeDOS-88VA/fc), [attrib](https://github.com/FreeDOS-88VA/attrib), [tree](https://github.com/FreeDOS-88VA/tree), [DOS-debug](https://github.com/FreeDOS-88VA/DOS-debug) |
 | FreeDOS 1.4 package imports | [replace](https://github.com/FreeDOS-88VA/replace), [exe2bin](https://github.com/FreeDOS-88VA/exe2bin), [swsubst](https://github.com/FreeDOS-88VA/swsubst), [undelete](https://github.com/FreeDOS-88VA/undelete), [unzip](https://github.com/FreeDOS-88VA/unzip), [zip](https://github.com/FreeDOS-88VA/zip), [gzip](https://github.com/FreeDOS-88VA/gzip) |
