@@ -2,9 +2,9 @@
 
 A port of [FreeDOS](https://www.freedos.org/) to the NEC PC-88VA. The goal is a FreeDOS 1.4 based system that boots from a 2HD floppy on the PC-88VA, built reproducibly from public sources.
 
-## Latest: M20 release candidate 1
+## Latest: M20 release candidate 2
 
-**[M20 release candidate 1](https://github.com/FreeDOS-88VA/freedos/releases/tag/m20-rc.1)** (prerelease, emulator validation only; hardware NOT RUN) is built on the FreeDOS 1.4 release sources (kernel `ke2043`, FreeCOM `com086`). It provides three PC-88VA 2HD floppy images (English only): a bootable system disk, a utilities disk and an archiver/tools disk (UNZIP, ZIP, GZIP, DEBUG). Japanese support is planned for the next milestone.
+**[M20 release candidate 2](https://github.com/FreeDOS-88VA/freedos/releases/tag/m20-rc.2)** (prerelease, emulator validation only; hardware NOT RUN) is built on the FreeDOS 1.4 release sources (kernel `ke2043`, FreeCOM `com086`). It provides three PC-88VA 2HD floppy images (English only): a bootable system disk, a utilities disk and an archiver/tools disk (UNZIP, ZIP, GZIP, DEBUG). Japanese support is planned for the next milestone.
 
 ## Start here
 
