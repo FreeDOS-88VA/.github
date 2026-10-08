@@ -4,6 +4,9 @@ A port of [FreeDOS](https://www.freedos.org/) to the NEC PC-88VA. The goal is a 
 
 ## News
 
+- 2026-10-08: Preview 2 of the PC-88VA MS-DOS 2.0 and 4.0 disks: the disk driver now reads and writes a whole track per ROM call instead of one sector at a time, and uses the drive-door status for media checks, which cuts floppy commands several-fold (validated on the VAEG emulator; hardware NOT RUN for preview 2).
+  - MS-DOS 4.0: https://github.com/FreeDOS-88VA/MS-DOS/releases/tag/msdos4-va.2
+  - MS-DOS 2.0: https://github.com/FreeDOS-88VA/MS-DOS/releases/tag/msdos2-va.2
 - 2026-10-08: Released English MS-DOS 2.0 and 4.0 disks for the PC-88VA from the MIT-licensed Microsoft MS-DOS release (prereleases, validated on the VAEG emulator; the owner booted both from drive A: on a real PC-88VA2 with 640 KiB and ran DIR and CHKDSK, other hardware checks NOT RUN). MS-DOS 4.0 is built from source except two prebuilt libraries that have no source in the release; MS-DOS 2.0 uses the release's MSDOS.SYS, COMMAND.COM and utilities with a PC-88VA IO.SYS built from source. Build recipes: [experiments/msdos4-va](https://github.com/FreeDOS-88VA/freedos/tree/main/experiments/msdos4-va), [experiments/msdos2-va](https://github.com/FreeDOS-88VA/freedos/tree/main/experiments/msdos2-va).
   - MS-DOS 4.0: https://github.com/FreeDOS-88VA/MS-DOS/releases/tag/msdos4-va.1
   - MS-DOS 2.0: https://github.com/FreeDOS-88VA/MS-DOS/releases/tag/msdos2-va.1
