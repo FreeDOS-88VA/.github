@@ -4,6 +4,8 @@ A port of [FreeDOS](https://www.freedos.org/) to the NEC PC-88VA. The goal is a 
 
 ## News
 
+- 2026-10-09: Released FreeDOS for the PC-88VA M20.1: the floppy disk code (loader, kernel and disk driver) transfers a whole track per ROM call instead of one sector at a time, cutting floppy commands several-fold on the VAEG emulator (reads 356 to 98, writes 131 to 45 for the same commands). Validated on the VAEG emulator only; hardware NOT RUN.
+  - https://github.com/FreeDOS-88VA/freedos/releases/tag/m20.1
 - 2026-10-08: Preview 2 of the PC-88VA MS-DOS 2.0 and 4.0 disks: the disk driver now reads and writes a whole track per ROM call instead of one sector at a time, and uses the drive-door status for media checks, which cuts floppy commands several-fold (validated on the VAEG emulator; hardware NOT RUN for preview 2).
   - MS-DOS 4.0: https://github.com/FreeDOS-88VA/MS-DOS/releases/tag/msdos4-va.2
   - MS-DOS 2.0: https://github.com/FreeDOS-88VA/MS-DOS/releases/tag/msdos2-va.2
@@ -11,14 +13,14 @@ A port of [FreeDOS](https://www.freedos.org/) to the NEC PC-88VA. The goal is a 
   - MS-DOS 4.0: https://github.com/FreeDOS-88VA/MS-DOS/releases/tag/msdos4-va.1
   - MS-DOS 2.0: https://github.com/FreeDOS-88VA/MS-DOS/releases/tag/msdos2-va.1
 
-## Latest: M20
+## Latest: M20.1
 
-**[M20](https://github.com/FreeDOS-88VA/freedos/releases/tag/m20)** (emulator validation only; hardware NOT RUN) is built on the FreeDOS 1.4 release sources (kernel `ke2043`, FreeCOM `com086`). It provides three PC-88VA 2HD floppy images (English only): a bootable system disk, a utilities disk and an archiver/tools disk (UNZIP, ZIP, GZIP, DEBUG). Japanese support is planned for the next milestone.
+**[M20.1](https://github.com/FreeDOS-88VA/freedos/releases/tag/m20.1)** (emulator validation only; hardware NOT RUN; faster floppy access than [M20](https://github.com/FreeDOS-88VA/freedos/releases/tag/m20)) is built on the FreeDOS 1.4 release sources (kernel `ke2043`, FreeCOM `com086`). It provides three PC-88VA 2HD floppy images (English only): a bootable system disk, a utilities disk and an archiver/tools disk (UNZIP, ZIP, GZIP, DEBUG). Japanese support is planned for the next milestone.
 
 ## Start here
 
 - **[freedos](https://github.com/FreeDOS-88VA/freedos)**: build recipes, pinned sources, documentation, milestone reports and release disk images.
-- [M20 release notes](https://github.com/FreeDOS-88VA/freedos/blob/main/docs/releases/m20.md), including known issues and the rebuild procedure.
+- [M20.1 release notes](https://github.com/FreeDOS-88VA/freedos/blob/main/docs/releases/m20.md), including known issues and the rebuild procedure.
 - Earlier releases: [M19 MS-DOS 4 COMMAND preview](https://github.com/FreeDOS-88VA/freedos/releases/tag/m19-msdos4-preview.1) and [M18](https://github.com/FreeDOS-88VA/freedos/releases/tag/m18).
 
 ## Repositories
