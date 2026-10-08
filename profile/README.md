@@ -4,7 +4,7 @@ A port of [FreeDOS](https://www.freedos.org/) to the NEC PC-88VA. The goal is a 
 
 ## News
 
-- 2026-10-08: Released English MS-DOS 2.0 and 4.0 disks for the PC-88VA, built from the MIT-licensed Microsoft MS-DOS sources (prereleases, emulator validation only; hardware NOT RUN). Build recipes: [experiments/msdos4-va](https://github.com/FreeDOS-88VA/freedos/tree/main/experiments/msdos4-va), [experiments/msdos2-va](https://github.com/FreeDOS-88VA/freedos/tree/main/experiments/msdos2-va).
+- 2026-10-08: Released English MS-DOS 2.0 and 4.0 disks for the PC-88VA from the MIT-licensed Microsoft MS-DOS release (prereleases, emulator validation only; hardware NOT RUN). MS-DOS 4.0 is built from source except two prebuilt libraries that have no source in the release; MS-DOS 2.0 uses the release's MSDOS.SYS, COMMAND.COM and utilities with a PC-88VA IO.SYS built from source. Build recipes: [experiments/msdos4-va](https://github.com/FreeDOS-88VA/freedos/tree/main/experiments/msdos4-va), [experiments/msdos2-va](https://github.com/FreeDOS-88VA/freedos/tree/main/experiments/msdos2-va).
   - MS-DOS 4.0: https://github.com/FreeDOS-88VA/MS-DOS/releases/tag/msdos4-va.1
   - MS-DOS 2.0: https://github.com/FreeDOS-88VA/MS-DOS/releases/tag/msdos2-va.1
 
